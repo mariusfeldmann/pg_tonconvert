@@ -2,6 +2,9 @@
 
 The motivation behind this is to become more familiar with building PostgreSQL extensions. The conversion can of course also be done in C code, the Golang library step is pure convenience :-)
 
+Hopefully this can come in helpful for someone who wants to build another postgres extension! 
+
+
 ### Building the Golang library 
 ```
 cd tonconvertlib/
@@ -53,3 +56,6 @@ nm tonconvert.a | grep "convert_to_human_readable_c"
                  U __cgoexp_2e6779091b52_convert_to_human_readable_c
 0000000000000000 T _convert_to_human_readable_c
 ```
+
+### Links 
+- https://www.percona.com/blog/writing-postgresql-extensions-is-fun-c-language/
