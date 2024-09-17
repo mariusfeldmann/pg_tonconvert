@@ -2,7 +2,7 @@
 
 The motivation behind this is to become more familiar with building PostgreSQL extensions. The conversion can of course also be done in C code, the Golang library step is pure convenience :-)
 
-Hopefully this can come in helpful for someone who wants to build another postgres extension! 
+Hopefully this will come in helpful for someone who wants to build another postgres extension! 
 
 
 ### Building the Golang library 
